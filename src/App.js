@@ -12,7 +12,7 @@ function App() {
   let calcBmi = (event) => {
     event.preventDefault();
 
-    if (weight == 0 || height == 0) {
+    if (weight === 0 || height === 0) {
       alert("Please enter a value on weight/height!");
     }
     else {
@@ -69,10 +69,10 @@ function App() {
       <footer className="text-center text-zinc-700 py-12">
         <h1 className="flex flex-row justify-center items-center gap-1">Made with <FaHeart/> by Christian</h1>
         <ul className="flex flex-row justify-center items-center gap-3 p-4 text-2xl">
-          <li><a href="https://github.com/christiancvillaruz" target="_blank"><FaGithub/></a></li>
-          <li><a href="https://twitter.com/robertssson13" target="_blank"><FaTwitter/></a></li>
-          <li><a href="https://facebook.com/kristyaaaan7" target="_blank"><FaFacebook/></a></li>
-          <li><a href="https://linkedin.com/in/christiancvillaruz" target="_blank"><FaLinkedin/></a></li>
+          <li><a href="https://github.com/christiancvillaruz" target="_blank" rel="noreferrer"><FaGithub/></a></li>
+          <li><a href="https://twitter.com/robertssson13" target="_blank" rel="noreferrer"><FaTwitter/></a></li>
+          <li><a href="https://facebook.com/kristyaaaan7" target="_blank" rel="noreferrer"><FaFacebook/></a></li>
+          <li><a href="https://linkedin.com/in/christiancvillaruz" target="_blank" rel="noreferrer"><FaLinkedin/></a></li>
         </ul>
       </footer>
     </div>
